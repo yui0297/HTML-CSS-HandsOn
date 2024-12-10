@@ -7,24 +7,70 @@
   <meta name="description" content="自己紹介サイトです。" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- CSSファイルの適用 -->
-  
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
   <div class="page-wrapper">
     <!-- ヘッダー -->
-
+    <header class="header">
+      <img src="img/logo.png" alt="logo" class="header-logo"/>
+      <nav>
+        <ul>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#articles">Articles</a></li>
+        </ul>
+      </nav>
+    </header>
     <main class="main-content">
       <!-- メインビジュアル -->
-
+      <img src="img/main_visual.jpg" alt="メインビジュアル" class="main-visual"/>
       <!-- プロフィール セクション -->
-
+      <section class="section" id="profile">
+        <h2 class="section-title">Profile</h2>
+        <div class="profile">
+          <img src="img/profilesky.png" alt="profile" class="profile-image"/>
+          <div class="profile-info">
+            <h3>YUI RARETECH</h3>
+            <p>
+              出身：宮崎県<br />
+              趣味：絵 お菓子、パン作り<br />
+            </p>
+          </div>
+        </div>
+      </section>
       <!-- 記事 セクション -->
+       <section class="section" id="Articles">
+        <h2 class="section-title">Articles</h2>
+        <div class="articles">
+          <div class="article">
+            <img src="img/article.jpg" alt="記事サムネイル" class="article-image"/>
+            <h3>記事のタイトル</h3>
+            <p>こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。</p>
+          </div>
+          <div class="article">
+            <img src="img/article.jpg" alt="記事サムネイル" class="article-image"/>
+            <h3>記事のタイトル</h3>
+            <p>こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。</p> 
+          </div>
+          <div class="article">
+            <img src="img/article.jpg" alt="記事サムネイル" class="article-image"/>
+            <h3>記事のタイトル</h3>
+            <p>こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。</p> 
+        </div>
+        <div class="article">
+          <img src="img/article.jpg" alt="記事サムネイル" class="article-image"/>
+          <h3>記事のタイトル</h3>
+          <p>こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。</p> 
+        </div>
+       </section>
 
     </main>
 
     <!-- フッター -->
-
+    <footer class="footer">
+      <p>&copy; 2024 profile</p>
+    </footer>
   </div>
 </body>
 
